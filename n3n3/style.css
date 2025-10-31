@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.landing {
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.enter-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.enter-btn:hover {
+    background-color: #e68a00;
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
